@@ -55,8 +55,6 @@ include("header.php");
 <div class="container">
     <div class="row jumbotron jumbotron-fluid">
         <div class="container mt-4">
-            <h1 class="display-6">Environnement de tests</h1>
-            <h3>Vous pouvez utiliser ces catégories pour découvrir le site</h3>
             <h1 class="display-6">Service de centralisation des propositions et demandes en situation d'urgence</h1>
             <?php if ($offer->getContact()->isVisible()): ?>
                 <p class="lead">Vous pouvez contacter la personne ci-dessous pour être mis en relation.</p>

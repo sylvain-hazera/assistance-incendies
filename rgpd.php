@@ -16,7 +16,7 @@ include("header.php");
         <div class="container mt-4">
            
     <hr class="my-4">
-                <span class="text-muted" style="font-size: 12px">Les informations recueillies dans le questionnaire sont enregistrées dans un fichier informatisé par la fire-force Adista. La base légale du traitement est votre consentement.
+                <span class="text-muted" style="font-size: 12px">Les informations recueillies dans le questionnaire sont enregistrées dans un fichier informatisé par l'équipe assista-crise. La base légale du traitement est votre consentement.
 <br/>
 Les données marquées par un astérisque dans le questionnaire doivent obligatoirement être fournies. Dans le cas contraire, la demande ne sera pas acceptée. En effet, les autres annonceurs, les autorités locales, et nous mêmes, ne pourrions vous contacter.
 <br/>
@@ -37,7 +37,7 @@ Par exemple :
 <br/>
 <br/>
 <br/>
-Elles sont conservées pendant 1 an, délai légal de conservation des journaux, pour pouvoir etre remis aux autorités judiciaires en cas de réquisitions.
+Elles sont conservées pendant 8 semaines, délai légal de conservation des journaux, pour pouvoir etre remis aux autorités judiciaires en cas de réquisitions.
 <br/>
 Vous pouvez accéder aux données vous concernant, les rectifier, demander leur effacement ou exercer votre droit à la limitation du traitement de vos données.
 <br/>
@@ -47,7 +47,7 @@ Vous pouvez retirer à tout moment votre consentement au traitement de vos donn�
 <br/>
 Consultez le site cnil.fr pour plus d’informations sur vos droits.
 <br/>
-Pour exercer ces droits ou pour toute question sur le traitement de vos données dans ce dispositif, vous pouvez contacter le gestionnaire de l'application : ADISTA à <a href="mailto:assistance-incendies@adista.fr">assistance-incendies@adista.fr</a>.
+Pour exercer ces droits ou pour toute question sur le traitement de vos données dans ce dispositif, vous pouvez contacter le gestionnaire de l'application : ADISTA à <a href="mailto:contact@assista-crise.fr">contact@assista-crise.fr</a>.
 <br/>
 Si vous estimez, après nous avoir contactés, que vos droits « Informatique et Libertés » ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL.
 <br/>

@@ -1,0 +1,10 @@
+{
+    "require": {
+        "twbs/bootstrap": "^5.1",
+        "swiftmailer/swiftmailer": "^6.0",
+        "twig/twig": "^3.0",
+        "twbs/bootstrap-icons": "^1.9",
+        "ext-pdo": "*",
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    }
+}

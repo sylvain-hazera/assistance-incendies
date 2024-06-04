@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #373c45;
+    font-size: 14px;
+}
+body {
+    background: url('../img/Fond-SMI.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    padding: 50px 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+}
+.entete-right {
+    display: flex;
+}r
+.wrapper-entete-title {
+    max-width: 350px;
+    margin-left:25px;
+}
+.logo {
+    background: url('../img/logo-Adista.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 254px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1280px)
+{
+    .logo {
+        width: 120px;
+        margin-bottom: 20px;
+    }
+}
+
+.entete-picto {
+    background: url('../img/pict-robot.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 53px;
+    height: 53px;
+}
+.entete-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+}
+.entete-title:before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100px;
+    height: 5px;
+    background-color: #00a071;
+}
+.entete-subtitle {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.green {
+    color: #c21f32;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* max-width: 1100px;
+    margin: 0 auto; */
+
+}
+.middle-content-img {
+    background: url('../img/site-internet-en-construction.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 100px;
+}
+.middle-content-text {
+    padding-bottom: 15px;
+}
+.visuel {
+    position: relative;
+    width: 270px;
+    height: 270px;
+}
+.img {
+    background: url('../img/visuel.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+    z-index: 3;
+    position: absolute;
+}
+.carre-green {
+    width: 270px;
+    height: 270px;
+    background-color:#c21f32;
+    z-index: 2;
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+.carre-grey {
+    width: 270px;
+    height: 270px;
+    background-color:#373c45; 
+    z-index: 1;
+    position: absolute;
+    left: 100px;
+    bottom: 95px;
+}
+.thanks {
+    font-weight: 500;
+}
+.bottom {
+    display: flex;
+}
+.contact {
+    font-weight: 500;
+}
+a {
+    display: block;
+}
+.tel {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 10px;
+    transition: 300ms;
+}
+.tel:hover {
+    color: #373c45;
+}
+.mail {
+    font-size: 14px;
+    transition: 300ms;
+}
+.mail:hover {
+    color: #00a071;
+}
+.adress-title {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.bloc-adress {
+    flex-shrink: 0;
+}
+.picto-msg {
+    background: url('../img/contacts.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 143px;
+    height: 142px;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+.trait-vert {
+    background-color: #c21f32;
+    width: 100%;
+    height: 10px;
+    margin-left: 50px ;
+}
+@media  screen and (max-width:1120px) {
+    .carre-grey {
+        display: none;
+    }
+}
+
+
+@media  screen and (max-width:850px) {
+    .carre-green, .entete-picto {
+        display: none;
+    }
+    .container {
+        padding: 50px 30px;
+    }
+}
+
+
+@media  screen and (max-width:720px) {
+    .middle, .entete {
+        flex-direction: column-reverse;
+    }
+    .entete {
+        flex-direction: column;
+        align-items: center;
+    }
+    .visuel {
+        margin: 30px 0;
+    }
+    .trait-vert, .picto-msg {
+        display: none;
+    }
+    .container {
+        height: 100%;
+    }
+    .wrapper-entete-title {
+        margin: 40px 0;
+        text-align: center;
+    }
+    .entete-title:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .middle-content, .bloc-adress {
+        text-align: center;
+    }
+    .bottom {
+        justify-content: center;
+    }
+}

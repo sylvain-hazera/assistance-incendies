@@ -19,7 +19,7 @@ include("header.php");
     </div>
     <div style="text-align: center;padding-top: 50px"><img src="img/logo.png"></div>
     <div class="d-grid gap-2">
-	<a href="/test/index.php" class="btn btn-outline-primary" type="button"><h1 style="margin:30px;">Espace Démonstration / apprentissage d'utilisation de l'outil</h1></a>
+	<a href="/test/index.php" class="btn btn-outline-primary" type="button"><h1 style="margin:30px;">Espace Test / Nouvelles fonctions en développement</h1></a>
     </div>
 <div>
 <?php
