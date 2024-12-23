@@ -65,10 +65,10 @@ function sendMail($to, $subject, $body)
         return;
     }
 
-    $apikey = '357b610bfe4a5ebdc203a569e0b1353d';
-    $apisecret = 'b3048c1f9afc3f31e9526604c1e858c9';
+    $apikey = '';
+    $apisecret = '';
 //    in-v3.mailjet.com // Port 25 ou 587
-    $from = 'assistance-incendies@adista.fr';
+    $from = '';
 
     $mj = new \Mailjet\Client($apikey, $apisecret,true,['version' => 'v3.1']);
 
