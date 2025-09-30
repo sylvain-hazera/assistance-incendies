@@ -1,7 +1,7 @@
 <?php
 
 //const SITE_URL = "http://localhost/";
-const SITE_URL = "https://assistance-incendies.adista.fr/";
+const SITE_URL = "https://assista-crise.fr/";
 const TYPE_CONTACT = [
     1 => 'Professionnel',
     2 => 'Particulier',
